@@ -1,24 +1,28 @@
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import Landing from "./pages/Landing"
+import About from "./pages/About"
+import Gallery from "./pages/Gallery"
+import Jewerly from "./pages/Jewelry"
+import Team from "./pages/Team"
+import Contact from "./pages/Contact"
+import Navbar from "./components/Navbar"
+import { BrowserRouter, Route, Routes} from "react-router-dom"
 
+// App is our top-level main component that references other components
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+  
+  return ( 
+  <BrowserRouter>
+    <Navbar />
+ <Routes> 
+    <Route path="/" element={<Landing/>} />
+    <Route path="/about" element={<About/>} />
+    <Route path="/gallery" element={<Gallery/>} />
+    <Route path="/jewelry" element={<Jewerly/>} />
+    <Route path="/team" element={<Team/>} />
+    <Route path="/contact" element={<Contact/>} />
+ </Routes>
+  </BrowserRouter> 
   );
 }
 
