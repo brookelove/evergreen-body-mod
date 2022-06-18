@@ -5,9 +5,9 @@ import { MdEmail } from "react-icons/md";
 export default function Footer() {
   return (
     <div className="footerContainer">
-      <Link to="/" className="evergreenFooterLink">
+      {/* <Link to="/" className="evergreenFooterLink">
         Evergreen Body Mod
-      </Link>
+      </Link> */}
       <ul className="footerLinkContainer">
         <li>
           <a href="https://m.facebook.com/Evergreen-Body-Mod-110421318127572/?ref=page_internal">

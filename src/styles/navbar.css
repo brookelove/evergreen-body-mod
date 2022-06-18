@@ -13,13 +13,13 @@ body {
   display: flex;
   color: black;
   align-items: stretch;
-  /* background-color: #1b2853; */
+  /* justify-content: space-between; */
   background-color: rgb(126, 125, 125);
 }
 .NavBarContainer ul {
   display: flex;
   position: relative;
-  left: 15%;
+  left: 10%;
   gap: 2rem;
   padding: 0 10%;
   justify-content: center;
@@ -43,7 +43,7 @@ body {
 }
 .NavBarContainer a {
   color: inherit;
-  justify-content: space-evenly;
+  /* justify-content: space-evenly; */
   height: 100%;
   display: inherit;
   align-items: center;
