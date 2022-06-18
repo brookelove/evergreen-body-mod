@@ -1,25 +1,31 @@
-import "../styles/navbar.css"
-import {Link} from "react-router-dom"
-import logo from "../assets/images/logo.jpg"
+import "../styles/navbar.css";
+import { Link } from "react-router-dom";
+import logo from "../assets/images/logo.jpg";
 export default function Navbar() {
-    const path = window.location.pathname
+  // const path = window.location.pathname
   return (
     <div className="NavBarContainer">
       <Link to="/" className="evergreen-title">
-       <img src={logo} alt="evergreen logo" width="35%"/>
+        <img src={logo} alt="evergreen logo" width="35%" />
       </Link>
       <ul className="navBarLinkContainer">
         <li>
-          <Link to="/about">ABOUT US</Link>
+          <Link to="/">HOME</Link>
+        </li>
+        <li>
+          <Link to="/about">ABOUT</Link>
         </li>
         <li>
           <Link to="/gallery">GALLERY</Link>
         </li>
-        <li>
+        {/* <li>
           <Link to="/jewelry">JEWELRY</Link>
-        </li>
+        </li> */}
         <li>
           <Link to="/team">TEAM</Link>
+        </li>
+        <li>
+          <Link to="/locate">LOCATE</Link>
         </li>
         <li>
           <Link to="/contact">CONTACT</Link>

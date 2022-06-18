@@ -1,0 +1,18 @@
+/* make it a gradient background */
+.aboutContainer {
+  /* background-color: red; */
+  padding: 10%;
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+}
+.aboutImage {
+  padding-right: 2%;
+}
+.textContainer {
+  padding-left: 2%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}

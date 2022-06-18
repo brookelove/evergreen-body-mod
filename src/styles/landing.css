@@ -1,0 +1,14 @@
+.landTitle {
+  /* background-color: black; */
+  display: flex;
+  justify-content: center;
+  padding: 10% 0 10% 0;
+}
+.imgContainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.landImage {
+    margin: 2%;
+}

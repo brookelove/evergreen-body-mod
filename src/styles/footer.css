@@ -1,0 +1,25 @@
+.footerContainer {
+  display: flex;
+  color: black;
+  align-items: center;
+  background-color: rgb(126, 125, 125);
+}
+.footerContainer a {
+  color: inherit;
+  justify-content: space-evenly;
+  text-decoration: none;
+}
+.evergreenFooterLink {
+  list-style-type: none;
+  font-size: 25px;
+}
+.footerLinkContainer {
+  display: flex;
+  list-style-type: none;
+  gap: 1rem;
+  position: relative;
+  left: 25%;
+}
+.footerLinkContainer li {
+    padding: 10%;
+}

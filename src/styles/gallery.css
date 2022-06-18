@@ -1,0 +1,20 @@
+.galleryContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.galleryTitle {
+  display: flex;
+  justify-content: center;
+}
+.galleryScrollContainer {
+  display: flex;
+  justify-content: center;
+}
+.galleryScroll {
+  position: relative;
+  left: 35%;
+  background-color: grey;
+  width: 30%;
+  height: 450px;
+}
