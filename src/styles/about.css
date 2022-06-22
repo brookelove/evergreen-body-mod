@@ -1,10 +1,10 @@
 /* make it a gradient background */
 .aboutContainer {
-  /* background-color: red; */
   padding: 10%;
   display: flex;
   justify-content: center;
   flex-direction: row;
+  height: 100vh;
 }
 .aboutImage {
   padding-right: 2%;
@@ -16,3 +16,9 @@
   justify-content: center;
   align-items: center;
 }
+.aboutTitle {
+ padding-bottom: 10%;
+}
+.dateText {
+  padding-bottom: 10%;
+ }

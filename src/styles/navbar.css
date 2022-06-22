@@ -1,30 +1,41 @@
 @import url("https://fonts.googleapis.com/css2?family=Tai+Heritage+Pro:wght@400;700&display=swap");
-@import url('https://fonts.googleapis.com/css2?family=Joan&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Joan&display=swap");
 * {
   margin: 0;
   box-sizing: border-box;
 }
 body {
   /* font-family: "Tai Heritage Pro", serif; */
-  font-family: 'Joan', serif;
+  font-family: "Joan", serif;
 }
 
 .NavBarContainer {
   display: flex;
   color: black;
   align-items: stretch;
-  /* justify-content: space-between; */
-  background-color: rgb(126, 125, 125);
+  padding: 2% 0 2% 0;
+  justify-content: center;
 }
 .NavBarContainer ul {
   display: flex;
   position: relative;
-  left: 10%;
   gap: 2rem;
   padding: 0 10%;
   justify-content: center;
   list-style-type: none;
   align-items: center;
+}
+.logoContainer {
+  display: flex;
+  flex-direction: center;
+  position: relative;
+  left: 40%;
+}
+.Logo {
+  display: flex;
+  clear: left;
+  justify-content: center;
+  margin-bottom: 1%;
 }
 .NavBarContainer li {
   font-size: 20px;
@@ -32,18 +43,37 @@ body {
   margin: 0 2%;
   padding: 0 2%;
 }
-.NavBarContainer li :active {
-  background-color: #555;
-  transition: ease-in-out 0.7s;
+/* the hover just beginning */
+.hoverUnderlineAnimate {
+  position: relative;
 }
-.NavBarContainer li :hover {
-  background-color: #555;
-  transition: 0.4s ease-in-out;
-  text-decoration: underline;
+/* after the hover and use stays on */
+.hoverUnderlineAnimate:after {
+  content: "";
+  position: absolute;
+  /* make it the size of the container */
+  width: 100%;
+  /* makes it start at 0 */
+  transform: scaleX(0);
+  /* makes it thicker */
+  height: 3px;
+  /* shifts it bottom and left */
+  bottom: 0;
+  left: 0;
+  background-color: #205f2e;
+  /* starts at the bottom right of the container */
+  transform-origin: bottom right;
+  transition: transform 0.25s ease-out;
+}
+/* right after the after on hover  */
+.hoverUnderlineAnimate:hover:after {
+  /* scales it to regular width of the container */
+  transform: scaleX(1);
+  /* starts line showing on hover at bottom left */
+  transform-origin: bottom left;
 }
 .NavBarContainer a {
   color: inherit;
-  /* justify-content: space-evenly; */
   height: 100%;
   display: inherit;
   align-items: center;

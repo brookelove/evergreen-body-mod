@@ -7,7 +7,6 @@ import Team from "./pages/Team";
 import Locate from "./pages/Locate";
 import Contact from "./pages/Contact";
 import Navbar from "./components/Navbar"
-import Footer from "./components/Footer"
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 
 // App is our top-level main component that references other components
@@ -24,7 +23,7 @@ function App() {
         <Route path="/locate" element={<Locate />} />
         <Route path="/contact" element={<Contact />} />
       </Routes>
-      <Footer />
+
     </BrowserRouter>
   )
 }

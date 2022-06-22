@@ -1,3 +1,6 @@
+.contactContainer {
+  height: 100vh;
+}
 .contactTitle {
   display: flex;
   justify-content: center;

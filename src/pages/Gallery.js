@@ -6,6 +6,7 @@ export default function Gallery() {
       {/* needs a rolling gallery*/}
       <div className="galleryScrollContainer"></div>
       <div className="galleryScroll"></div>
+      {/* <p className="gallerySubText"> Want to Check out more? Look at our Instagram</p> */}
     </div>
   );
 }

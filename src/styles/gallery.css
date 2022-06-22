@@ -1,10 +1,17 @@
 .galleryContainer {
   display: flex;
+  background-image: url("../assets/images/woodbackground.png");
+  background-size: cover;
+  background-repeat: no-repeat;
   flex-direction: column;
   justify-content: center;
+  height: 100vh;
 }
 .galleryTitle {
   display: flex;
+  color: white;
+  font-size: 300%;
+  padding-bottom: 2%;
   justify-content: center;
 }
 .galleryScrollContainer {
@@ -17,4 +24,7 @@
   background-color: grey;
   width: 30%;
   height: 450px;
+}
+.gallerySubText {
+  color: white;
 }

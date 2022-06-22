@@ -1,3 +1,4 @@
+import "../styles/team.css"
 export default function Team() {
   return (
     <div className="teamContainer">

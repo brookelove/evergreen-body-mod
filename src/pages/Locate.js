@@ -1,6 +1,7 @@
+import "../styles/locate.css"
 export default function Locate() {
   return (
-    <div>
+    <div className="locateContainer">
       <h1>Locate Us</h1>
       <div className="googleWalkthrough"></div>
       <div className="googleMaps"></div>
