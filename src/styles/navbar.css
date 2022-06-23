@@ -29,11 +29,10 @@ body {
   display: flex;
   flex-direction: center;
   position: relative;
-  left: 40%;
+  left: 36%;
 }
 .Logo {
   display: flex;
-  clear: left;
   justify-content: center;
   margin-bottom: 1%;
 }
@@ -78,4 +77,16 @@ body {
   display: inherit;
   align-items: center;
   text-decoration: none;
+}
+.hamburger {
+  display: none;
+}
+@media screen and (max-width: 768px) {
+.NavBarContainer ul {
+  padding-top: 10%;
+  flex-wrap: wrap;
+}
+}
+@media screen and (max-width: 768px) {
+  
 }

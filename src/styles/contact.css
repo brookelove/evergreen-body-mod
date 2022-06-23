@@ -31,7 +31,7 @@ form {
 .contactInputs {
   padding: 1% 0 1% 0;
   margin: 1% 0 1% 0;
-  color: bisque;
+  color: bisque !important;
   background-color: black;
 }
 /* form links side */
@@ -73,7 +73,7 @@ form {
 .googleMapsBox {
   display: flex;
   flex-wrap: wrap;
-  margin: 0;
+  margin-bottom: 10%;
 }
 .googleMaps {
   width: fit-content;
@@ -109,4 +109,21 @@ form {
 .hourInfoR {
   position: relative;
   left: 10%;
+}
+@media screen and (max-width: 768px) {
+  .contactContainer {
+    width:160%;
+    height: 400px;
+    margin: 5%;
+  }
+  .orLinks {
+    right: 2px;
+  }
+  iframe {
+    width:160%;
+  }
+  .googleMapsTextBox {
+    position: relative;
+    left: 20%;
+  }
 }

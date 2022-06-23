@@ -2,6 +2,7 @@ import "../styles/landing.css";
 import right from "../assets/images/rightImg.jpeg";
 import left from "../assets/images/left.jpg";
 import middle from "../assets/images/middle.jpeg";
+import About from "./About"
 export default function Home() {
   return (
     <div className="landingPage">
@@ -13,6 +14,7 @@ export default function Home() {
       </div>
       <div className="textBox">
         {/* need to create a place where there is text on the page  */}
+        <About />
         <p className="subText">Thank your for checking out our website!</p>
         <h3 className="allAboutSubTitle">All About You</h3>
         <p className="allAboutSubText">

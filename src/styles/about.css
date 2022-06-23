@@ -2,12 +2,15 @@
 .aboutContainer {
   padding: 10%;
   display: flex;
+  flex-wrap: wrap;
   justify-content: center;
   flex-direction: row;
   height: 100vh;
 }
 .aboutImage {
   padding-right: 2%;
+  object-fit: cover;
+  margin-bottom: 10%;
 }
 .textContainer {
   padding-left: 2%;

@@ -1,0 +1,28 @@
+.piercingTitle {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    background-color: rgb(232, 245, 232)
+}
+.piercingCategory {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 20%;
+  }
+
+  .piercingInfo{
+    display: flex;
+    justify-content: space-between;
+ 
+    font-size: 150%;
+  }
+  .piercingName {
+    position: relative;
+    right: 5%;
+  }
+  .piercingPrice {
+    position: relative;
+    left: 10%;
+  }

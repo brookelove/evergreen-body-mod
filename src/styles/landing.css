@@ -37,7 +37,7 @@
   justify-content: center;
   text-align: center;
   position: relative;
-  top:40%;
+  top: 40%;
   padding-bottom: 10%;
 }
 .subText {
@@ -47,4 +47,9 @@
 .allAboutSubTitle {
   margin: 2% 0 2% 0;
   font-size: 160%;
+}
+@media screen and (max-width: 768px) {
+  /* .landImage {
+    width: 40%;
+  } */
 }
