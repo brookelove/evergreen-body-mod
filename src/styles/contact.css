@@ -1,26 +1,112 @@
+/* overall contact box for both form and links ========================= */
+.contactBox {
+  display: flex;
+  flex-wrap: wrap;
+}
+/* form side */
 .contactContainer {
-  height: 100vh;
+  width: 50%;
+  padding: 3%;
+  margin: 0 2% 3% 0;
+  background-color: black;
 }
 .contactTitle {
   display: flex;
+  color: wheat;
+  font-size: 250%;
+  margin-bottom: 2%;
   justify-content: center;
-  padding: 3% 0 3% 0;
 }
 form {
   margin: 0;
+  color: wheat;
   background-color: black;
-  padding: 30px;
 }
 .contactForm {
-  margin: 0;
-  width: 50%;
-  position: relative;
-  left: 25%;
   display: flex;
+  color: bisque;
   flex-direction: column;
   justify-content: center;
 }
 .contactInputs {
   padding: 1% 0 1% 0;
   margin: 1% 0 1% 0;
+  color: bisque;
+  background-color: black;
+}
+/* form links side */
+.orLinks {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  position: relative;
+  left: 12%;
+  /* bottom: 70%; */
+}
+.contactDirectTitle {
+  font-size: 250%;
+  padding-bottom: 2%;
+}
+.contactSubText {
+  font-size: 150%;
+  padding-bottom: 2%;
+}
+.contactLinks {
+  font-size: 130%;
+  color: black;
+  padding: 1% 0 1% 0;
+  text-decoration: none;
+}
+/* google walkthrough ======================================== */
+.socialLinksBox {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.googleWalkthrough {
+  width: 50%;
+}
+/* need the google walkthrough to make it look better or something that hangs on the right */
+/* google maps area starts ============================================= */
+.googleMapsBox {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0;
+}
+.googleMaps {
+  width: fit-content;
+  padding: 2%;
+}
+.googleMapsTextBox {
+  left: 40%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  position: relative;
+}
+.hoursOpen {
+  margin-top: 10%;
+}
+.gridContainer {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.gridUl {
+  padding: 0;
+}
+.gridItem {
+  display: flex;
+  justify-content: space-between;
+}
+.hourInfoL {
+  position: relative;
+  right: 5%;
+}
+.hourInfoR {
+  position: relative;
+  left: 10%;
 }

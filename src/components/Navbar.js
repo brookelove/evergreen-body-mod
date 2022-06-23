@@ -17,17 +17,21 @@ export default function Navbar() {
             <Link to="/about">ABOUT</Link>
           </li>
           <li className="hoverUnderlineAnimate">
+            <Link to="/gallery">POLICIES</Link>
+          </li>
+          <li className="hoverUnderlineAnimate">
             <Link to="/gallery">GALLERY</Link>
           </li>
-          {/* <li className="hoverUnderlineAnimate">
-          <Link to="/jewelry">JEWELRY</Link>
+          <li className="hoverUnderlineAnimate">
+            <Link to="/piercing">PIERCING</Link>
+          </li>
+        {/* <li className="hoverUnderlineAnimate">
+          <Link to="/jewelry">SHOP</Link>
         </li> */}
           <li className="hoverUnderlineAnimate">
             <Link to="/team">TEAM</Link>
           </li>
-          <li className="hoverUnderlineAnimate">
-            <Link to="/locate">LOCATE</Link>
-          </li>
+
           <li className="hoverUnderlineAnimate">
             <Link to="/contact">CONTACT</Link>
           </li>

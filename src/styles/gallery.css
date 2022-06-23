@@ -18,13 +18,15 @@
   display: flex;
   justify-content: center;
 }
-.galleryScroll {
+.gallerySubText {
+  color: white;
+}
+.carousel {
   position: relative;
   left: 35%;
   background-color: grey;
   width: 30%;
   height: 450px;
+  /* background-color: black; */
 }
-.gallerySubText {
-  color: white;
-}
+
