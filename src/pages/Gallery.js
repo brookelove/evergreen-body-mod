@@ -7,7 +7,6 @@ export default function Gallery() {
     <div className="galleryContainer">
       <h1 className="galleryTitle">Gallery</h1>
       <Carousel />
-      {/* <p className="gallerySubText"> Want to Check out more? Look at our Instagram</p> */}
     </div>
   );
 }

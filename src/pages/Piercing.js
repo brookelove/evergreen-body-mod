@@ -9,16 +9,20 @@ export default function Locate() {
           <p className="piercingPrice">$$$</p>
         </div>
         <div className="piercingInfo">
-          <p className="piercingName">Conch</p>
-          <p className="piercingPrice">$$$</p>
+          <p className="piercingName">Nostril</p>
+          <p className="piercingPrice">$80+</p>
         </div>
         <div className="piercingInfo">
-          <p className="piercingName">Ear Lobe Gauging</p>
-          <p className="piercingPrice">$$$</p>
+          <p className="piercingName">All Inner Ear Cartilidge</p>
+          <p className="piercingPrice">$80</p>
         </div>
         <div className="piercingInfo">
-          <p className="piercingName">Eyebrow</p>
-          <p className="piercingPrice">$$$</p>
+          <p className="piercingName">Ear Lobe</p>
+          <p className="piercingPrice">$80+</p>
+        </div>
+        <div className="piercingInfo">
+          <p className="piercingName">All Outer Ear Cartilidge</p>
+          <p className="piercingPrice">$80+</p>
         </div>
         <div className="piercingInfo">
           <p className="piercingName">Industrial</p>
@@ -37,6 +41,7 @@ export default function Locate() {
           <p className="piercingPrice">$$$</p>
         </div>
       </ul>
+      <p>* Prices vary depending on include jewelry </p>
     </div>
   );
 }

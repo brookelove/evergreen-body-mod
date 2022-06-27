@@ -1,8 +1,8 @@
 .landingPage {
-  background-color: #faf6f0;
+  /* background-color: #faf6f0; */
+  background-color: black;
   height: 100vh;
 }
-
 .landTitle {
   color: #205f2e;
   display: flex;
@@ -16,21 +16,14 @@
   flex-wrap: wrap;
   position: relative;
   top: 15%;
-  /* background-color: rgb(9, 53, 9); */
   justify-content: space-around;
 }
 .landImage {
   margin: 2%;
-  /* border-radius: 0 10% 0 10%; */
   border-radius: 10%;
-  border-color: #205f2e;
   border-style: groove;
-  border-width: 5px;
+  /* border-width: 5px; */
 }
-/* .landImage:hover {
-  transform: scale(0.7);
-  transition: 2s ease-out;
-} */
 .textBox {
   display: flex;
   flex-direction: column;

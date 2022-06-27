@@ -24,7 +24,7 @@ export default function Navbar() {
             <Link to="/">HOME</Link>
           </li>
           <li className="hoverUnderlineAnimate">
-            <Link to="/about">ABOUT</Link>
+            <Link to="/about">ARTISTS</Link>
           </li>
           <li className="hoverUnderlineAnimate">
             <Link to="/gallery">POLICIES</Link>
@@ -38,9 +38,6 @@ export default function Navbar() {
           {/* <li className="hoverUnderlineAnimate">
           <Link to="/jewelry">SHOP</Link>
         </li> */}
-          {/* <li className="hoverUnderlineAnimate">
-            <Link to="/team">TEAM</Link>
-          </li> */}
           <li className="hoverUnderlineAnimate">
             <Link to="/contact">CONTACT</Link>
           </li>

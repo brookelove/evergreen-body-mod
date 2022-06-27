@@ -144,7 +144,7 @@ export default function Contact() {
               <h1 className="gridContainer">Hours</h1>
               <div className="gridItem">
                 <p className="hourInfoL">Sunday</p>
-                <p className="hourInfoR">10AM - 6PM</p>
+                <p className="hourInfoR">CLOSED</p>
               </div>
               <div className="gridItem">
                 <p className="hourInfoL">Monday</p>
@@ -164,7 +164,7 @@ export default function Contact() {
               </div>
               <div className="gridItem">
                 <p className="hourInfoL">Friday</p>
-                <p className="hourInfoR">CLOSED</p>
+                <p className="hourInfoR">10AM - 6PM</p>
               </div>
               <div className="gridItem">
                 <p className="hourInfoL">Saturday</p>
